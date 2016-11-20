@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45A30011DDB215A00237F55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30001DDB215A00237F55 /* main.m */; };
+		F45A30041DDB215A00237F55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30031DDB215A00237F55 /* AppDelegate.m */; };
+		F45A30071DDB215A00237F55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30061DDB215A00237F55 /* ViewController.m */; };
+		F45A300C1DDB215A00237F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45A300B1DDB215A00237F55 /* Assets.xcassets */; };
+		F45A300F1DDB215A00237F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45A300D1DDB215A00237F55 /* LaunchScreen.storyboard */; };
+		F45A301A1DDB215B00237F55 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30191DDB215B00237F55 /* ____Tests.m */; };
+		F45A30251DDB215B00237F55 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30241DDB215B00237F55 /* ____UITests.m */; };
+		F45A30641DDB25AD00237F55 /* libHyphenateFullSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A30631DDB25AD00237F55 /* libHyphenateFullSDK.a */; };
+		F45A30661DDB291500237F55 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A30651DDB291500237F55 /* CoreMedia.framework */; };
+		F45A30681DDB292000237F55 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A30671DDB292000237F55 /* AudioToolbox.framework */; };
+		F45A306A1DDB292B00237F55 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A30691DDB292B00237F55 /* AVFoundation.framework */; };
+		F45A306C1DDB293700237F55 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A306B1DDB293700237F55 /* MobileCoreServices.framework */; };
+		F45A306E1DDB294100237F55 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A306D1DDB294100237F55 /* ImageIO.framework */; };
+		F45A30701DDB295900237F55 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A306F1DDB295900237F55 /* libc++.tbd */; };
+		F45A30721DDB296300237F55 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A30711DDB296300237F55 /* libz.tbd */; };
+		F45A30741DDB297100237F55 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A30731DDB297100237F55 /* libstdc++.tbd */; };
+		F45A30761DDB298000237F55 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A30751DDB298000237F55 /* libsqlite3.tbd */; };
+		F45A30781DDB298E00237F55 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A30771DDB298E00237F55 /* libiconv.tbd */; };
+		F45A307C1DDB32DD00237F55 /* KLRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A307B1DDB32DD00237F55 /* KLRootNavigationController.m */; };
+		F45A30831DDB33D700237F55 /* KLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30821DDB33D700237F55 /* KLContentView.m */; };
+		F45A30861DDB342500237F55 /* KLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30851DDB342500237F55 /* KLRootViewController.m */; };
+		F45A308A1DDB34AA00237F55 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30891DDB34AA00237F55 /* UIViewExt.m */; };
+		F45A308E1DDB385E00237F55 /* KLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A308D1DDB385E00237F55 /* KLLoginViewController.m */; };
+		F45A30921DDB43B100237F55 /* KLcustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30911DDB43B100237F55 /* KLcustomBtn.m */; };
+		F45A30991DDC607900237F55 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30951DDC607900237F55 /* MBProgressHUD+MJ.m */; };
+		F45A309A1DDC607900237F55 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F45A30961DDC607900237F55 /* MBProgressHUD.bundle */; };
+		F45A309B1DDC607900237F55 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30981DDC607900237F55 /* MBProgressHUD.m */; };
+		F45A309F1DDD9CF100237F55 /* KLchatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A309E1DDD9CF100237F55 /* KLchatViewController.m */; };
+		F45A30A41DDD9D3700237F55 /* KLcontactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30A31DDD9D3700237F55 /* KLcontactViewController.m */; };
+		F45A30A81DDD9D4E00237F55 /* KLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30A71DDD9D4E00237F55 /* KLMeViewController.m */; };
+		F45A30EF1DDEBA9600237F55 /* TKAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30EC1DDEBA9600237F55 /* TKAlertCenter.m */; };
+		F45A30F01DDEBA9600237F55 /* UIView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A30EE1DDEBA9600237F55 /* UIView+TKCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F45A30161DDB215B00237F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45A2FF41DDB215A00237F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45A2FFB1DDB215A00237F55;
+			remoteInfo = "环形山脉";
+		};
+		F45A30211DDB215B00237F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45A2FF41DDB215A00237F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45A2FFB1DDB215A00237F55;
+			remoteInfo = "环形山脉";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F45A2FFC1DDB215A00237F55 /* 环形山脉.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "环形山脉.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45A30001DDB215A00237F55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F45A30021DDB215A00237F55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F45A30031DDB215A00237F55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F45A30051DDB215A00237F55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F45A30061DDB215A00237F55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F45A300B1DDB215A00237F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45A300E1DDB215A00237F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F45A30101DDB215A00237F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45A30151DDB215B00237F55 /* 环形山脉Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "环形山脉Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45A30191DDB215B00237F55 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		F45A301B1DDB215B00237F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45A30201DDB215B00237F55 /* 环形山脉UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "环形山脉UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45A30241DDB215B00237F55 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		F45A30261DDB215B00237F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45A30391DDB25AD00237F55 /* EMCallEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallEnum.h; sourceTree = "<group>"; };
+		F45A303A1DDB25AD00237F55 /* EMCallLocalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallLocalView.h; sourceTree = "<group>"; };
+		F45A303B1DDB25AD00237F55 /* EMCallManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerDelegate.h; sourceTree = "<group>"; };
+		F45A303C1DDB25AD00237F55 /* EMCallOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallOptions.h; sourceTree = "<group>"; };
+		F45A303D1DDB25AD00237F55 /* EMCallRemoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallRemoteView.h; sourceTree = "<group>"; };
+		F45A303E1DDB25AD00237F55 /* EMCallSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallSession.h; sourceTree = "<group>"; };
+		F45A303F1DDB25AD00237F55 /* EMChatManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerDelegate.h; sourceTree = "<group>"; };
+		F45A30401DDB25AD00237F55 /* EMChatroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatroom.h; sourceTree = "<group>"; };
+		F45A30411DDB25AD00237F55 /* EMChatroomManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatroomManagerDelegate.h; sourceTree = "<group>"; };
+		F45A30421DDB25AD00237F55 /* EMClient+Call.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMClient+Call.h"; sourceTree = "<group>"; };
+		F45A30431DDB25AD00237F55 /* EMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMClient.h; sourceTree = "<group>"; };
+		F45A30441DDB25AD00237F55 /* EMClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMClientDelegate.h; sourceTree = "<group>"; };
+		F45A30451DDB25AD00237F55 /* EMCmdMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCmdMessageBody.h; sourceTree = "<group>"; };
+		F45A30461DDB25AD00237F55 /* EMCommonDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCommonDefs.h; sourceTree = "<group>"; };
+		F45A30471DDB25AD00237F55 /* EMContactManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMContactManagerDelegate.h; sourceTree = "<group>"; };
+		F45A30481DDB25AD00237F55 /* EMConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConversation.h; sourceTree = "<group>"; };
+		F45A30491DDB25AD00237F55 /* EMCursorResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCursorResult.h; sourceTree = "<group>"; };
+		F45A304A1DDB25AD00237F55 /* EMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMError.h; sourceTree = "<group>"; };
+		F45A304B1DDB25AD00237F55 /* EMErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMErrorCode.h; sourceTree = "<group>"; };
+		F45A304C1DDB25AD00237F55 /* EMFileMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFileMessageBody.h; sourceTree = "<group>"; };
+		F45A304D1DDB25AD00237F55 /* EMGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroup.h; sourceTree = "<group>"; };
+		F45A304E1DDB25AD00237F55 /* EMGroupManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroupManagerDelegate.h; sourceTree = "<group>"; };
+		F45A304F1DDB25AD00237F55 /* EMGroupOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroupOptions.h; sourceTree = "<group>"; };
+		F45A30501DDB25AD00237F55 /* EMImageMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMImageMessageBody.h; sourceTree = "<group>"; };
+		F45A30511DDB25AD00237F55 /* EMLocationMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLocationMessageBody.h; sourceTree = "<group>"; };
+		F45A30521DDB25AD00237F55 /* EMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMessage.h; sourceTree = "<group>"; };
+		F45A30531DDB25AD00237F55 /* EMMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMessageBody.h; sourceTree = "<group>"; };
+		F45A30541DDB25AD00237F55 /* EMOptions+PrivateDeploy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMOptions+PrivateDeploy.h"; sourceTree = "<group>"; };
+		F45A30551DDB25AD00237F55 /* EMOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMOptions.h; sourceTree = "<group>"; };
+		F45A30561DDB25AD00237F55 /* EMPageResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPageResult.h; sourceTree = "<group>"; };
+		F45A30571DDB25AD00237F55 /* EMPushOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPushOptions.h; sourceTree = "<group>"; };
+		F45A30581DDB25AD00237F55 /* EMSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDK.h; sourceTree = "<group>"; };
+		F45A30591DDB25AD00237F55 /* EMSDKFull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDKFull.h; sourceTree = "<group>"; };
+		F45A305A1DDB25AD00237F55 /* EMTextMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTextMessageBody.h; sourceTree = "<group>"; };
+		F45A305B1DDB25AD00237F55 /* EMVideoMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVideoMessageBody.h; sourceTree = "<group>"; };
+		F45A305C1DDB25AD00237F55 /* EMVoiceMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVoiceMessageBody.h; sourceTree = "<group>"; };
+		F45A305D1DDB25AD00237F55 /* IEMCallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMCallManager.h; sourceTree = "<group>"; };
+		F45A305E1DDB25AD00237F55 /* IEMChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMChatManager.h; sourceTree = "<group>"; };
+		F45A305F1DDB25AD00237F55 /* IEMChatroomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMChatroomManager.h; sourceTree = "<group>"; };
+		F45A30601DDB25AD00237F55 /* IEMContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMContactManager.h; sourceTree = "<group>"; };
+		F45A30611DDB25AD00237F55 /* IEMGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMGroupManager.h; sourceTree = "<group>"; };
+		F45A30631DDB25AD00237F55 /* libHyphenateFullSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateFullSDK.a; sourceTree = "<group>"; };
+		F45A30651DDB291500237F55 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F45A30671DDB292000237F55 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F45A30691DDB292B00237F55 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F45A306B1DDB293700237F55 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F45A306D1DDB294100237F55 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F45A306F1DDB295900237F55 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F45A30711DDB296300237F55 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F45A30731DDB297100237F55 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F45A30751DDB298000237F55 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F45A30771DDB298E00237F55 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		F45A307A1DDB32DD00237F55 /* KLRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRootNavigationController.h; sourceTree = "<group>"; };
+		F45A307B1DDB32DD00237F55 /* KLRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRootNavigationController.m; sourceTree = "<group>"; };
+		F45A30811DDB33D700237F55 /* KLContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLContentView.h; sourceTree = "<group>"; };
+		F45A30821DDB33D700237F55 /* KLContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLContentView.m; sourceTree = "<group>"; };
+		F45A30841DDB342500237F55 /* KLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLRootViewController.h; sourceTree = "<group>"; };
+		F45A30851DDB342500237F55 /* KLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLRootViewController.m; sourceTree = "<group>"; };
+		F45A30881DDB34AA00237F55 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		F45A30891DDB34AA00237F55 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		F45A308B1DDB34E800237F55 /* WeChat.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChat.pch; sourceTree = "<group>"; };
+		F45A308C1DDB385E00237F55 /* KLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLLoginViewController.h; sourceTree = "<group>"; };
+		F45A308D1DDB385E00237F55 /* KLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLLoginViewController.m; sourceTree = "<group>"; };
+		F45A30901DDB43B100237F55 /* KLcustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLcustomBtn.h; sourceTree = "<group>"; };
+		F45A30911DDB43B100237F55 /* KLcustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLcustomBtn.m; sourceTree = "<group>"; };
+		F45A30941DDC607900237F55 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		F45A30951DDC607900237F55 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		F45A30961DDC607900237F55 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		F45A30971DDC607900237F55 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F45A30981DDC607900237F55 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F45A309D1DDD9CF100237F55 /* KLchatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLchatViewController.h; sourceTree = "<group>"; };
+		F45A309E1DDD9CF100237F55 /* KLchatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLchatViewController.m; sourceTree = "<group>"; };
+		F45A30A21DDD9D3700237F55 /* KLcontactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLcontactViewController.h; sourceTree = "<group>"; };
+		F45A30A31DDD9D3700237F55 /* KLcontactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLcontactViewController.m; sourceTree = "<group>"; };
+		F45A30A61DDD9D4E00237F55 /* KLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLMeViewController.h; sourceTree = "<group>"; };
+		F45A30A71DDD9D4E00237F55 /* KLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLMeViewController.m; sourceTree = "<group>"; };
+		F45A30EB1DDEBA9600237F55 /* TKAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertCenter.h; sourceTree = "<group>"; };
+		F45A30EC1DDEBA9600237F55 /* TKAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAlertCenter.m; sourceTree = "<group>"; };
+		F45A30ED1DDEBA9600237F55 /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TKCategory.h"; sourceTree = "<group>"; };
+		F45A30EE1DDEBA9600237F55 /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKCategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45A2FF91DDB215A00237F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45A30781DDB298E00237F55 /* libiconv.tbd in Frameworks */,
+				F45A30761DDB298000237F55 /* libsqlite3.tbd in Frameworks */,
+				F45A30741DDB297100237F55 /* libstdc++.tbd in Frameworks */,
+				F45A30721DDB296300237F55 /* libz.tbd in Frameworks */,
+				F45A30701DDB295900237F55 /* libc++.tbd in Frameworks */,
+				F45A306E1DDB294100237F55 /* ImageIO.framework in Frameworks */,
+				F45A306C1DDB293700237F55 /* MobileCoreServices.framework in Frameworks */,
+				F45A306A1DDB292B00237F55 /* AVFoundation.framework in Frameworks */,
+				F45A30681DDB292000237F55 /* AudioToolbox.framework in Frameworks */,
+				F45A30661DDB291500237F55 /* CoreMedia.framework in Frameworks */,
+				F45A30641DDB25AD00237F55 /* libHyphenateFullSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45A30121DDB215B00237F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45A301D1DDB215B00237F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45A2FF31DDB215A00237F55 = {
+			isa = PBXGroup;
+			children = (
+				F45A30771DDB298E00237F55 /* libiconv.tbd */,
+				F45A30751DDB298000237F55 /* libsqlite3.tbd */,
+				F45A30731DDB297100237F55 /* libstdc++.tbd */,
+				F45A30711DDB296300237F55 /* libz.tbd */,
+				F45A306F1DDB295900237F55 /* libc++.tbd */,
+				F45A306D1DDB294100237F55 /* ImageIO.framework */,
+				F45A306B1DDB293700237F55 /* MobileCoreServices.framework */,
+				F45A30691DDB292B00237F55 /* AVFoundation.framework */,
+				F45A30671DDB292000237F55 /* AudioToolbox.framework */,
+				F45A30651DDB291500237F55 /* CoreMedia.framework */,
+				F45A2FFE1DDB215A00237F55 /* 环形山脉 */,
+				F45A30181DDB215B00237F55 /* 环形山脉Tests */,
+				F45A30231DDB215B00237F55 /* 环形山脉UITests */,
+				F45A2FFD1DDB215A00237F55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F45A2FFD1DDB215A00237F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45A2FFC1DDB215A00237F55 /* 环形山脉.app */,
+				F45A30151DDB215B00237F55 /* 环形山脉Tests.xctest */,
+				F45A30201DDB215B00237F55 /* 环形山脉UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45A2FFE1DDB215A00237F55 /* 环形山脉 */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30EA1DDEBA9600237F55 /* TKAlertView */,
+				F45A30931DDC607900237F55 /* MBProgressHUD */,
+				F45A30331DDB24DF00237F55 /* Lib */,
+				F45A30871DDB34AA00237F55 /* Utilities */,
+				F45A30791DDB325A00237F55 /* Root */,
+				F45A30321DDB24A600237F55 /* Other */,
+				F45A308F1DDB434F00237F55 /* Custom(客制化控件) */,
+				F45A30341DDB24F200237F55 /* Biz(主要界面) */,
+				F45A2FFF1DDB215A00237F55 /* Supporting Files */,
+			);
+			path = "环形山脉";
+			sourceTree = "<group>";
+		};
+		F45A2FFF1DDB215A00237F55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F45A308B1DDB34E800237F55 /* WeChat.pch */,
+				F45A300B1DDB215A00237F55 /* Assets.xcassets */,
+				F45A300D1DDB215A00237F55 /* LaunchScreen.storyboard */,
+				F45A30101DDB215A00237F55 /* Info.plist */,
+				F45A30001DDB215A00237F55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F45A30181DDB215B00237F55 /* 环形山脉Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30191DDB215B00237F55 /* ____Tests.m */,
+				F45A301B1DDB215B00237F55 /* Info.plist */,
+			);
+			path = "环形山脉Tests";
+			sourceTree = "<group>";
+		};
+		F45A30231DDB215B00237F55 /* 环形山脉UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30241DDB215B00237F55 /* ____UITests.m */,
+				F45A30261DDB215B00237F55 /* Info.plist */,
+			);
+			path = "环形山脉UITests";
+			sourceTree = "<group>";
+		};
+		F45A30321DDB24A600237F55 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30051DDB215A00237F55 /* ViewController.h */,
+				F45A30061DDB215A00237F55 /* ViewController.m */,
+				F45A30021DDB215A00237F55 /* AppDelegate.h */,
+				F45A30031DDB215A00237F55 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		F45A30331DDB24DF00237F55 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30371DDB25AD00237F55 /* HyphenateFullSDK */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		F45A30341DDB24F200237F55 /* Biz(主要界面) */ = {
+			isa = PBXGroup;
+			children = (
+				F45A309C1DDD9C9500237F55 /* MainVcClass */,
+				F45A30351DDB250800237F55 /* Login */,
+			);
+			name = "Biz(主要界面)";
+			sourceTree = "<group>";
+		};
+		F45A30351DDB250800237F55 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30361DDB251300237F55 /* Controller */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		F45A30361DDB251300237F55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F45A308C1DDB385E00237F55 /* KLLoginViewController.h */,
+				F45A308D1DDB385E00237F55 /* KLLoginViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F45A30371DDB25AD00237F55 /* HyphenateFullSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30381DDB25AD00237F55 /* include */,
+				F45A30621DDB25AD00237F55 /* lib */,
+			);
+			path = HyphenateFullSDK;
+			sourceTree = "<group>";
+		};
+		F45A30381DDB25AD00237F55 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30391DDB25AD00237F55 /* EMCallEnum.h */,
+				F45A303A1DDB25AD00237F55 /* EMCallLocalView.h */,
+				F45A303B1DDB25AD00237F55 /* EMCallManagerDelegate.h */,
+				F45A303C1DDB25AD00237F55 /* EMCallOptions.h */,
+				F45A303D1DDB25AD00237F55 /* EMCallRemoteView.h */,
+				F45A303E1DDB25AD00237F55 /* EMCallSession.h */,
+				F45A303F1DDB25AD00237F55 /* EMChatManagerDelegate.h */,
+				F45A30401DDB25AD00237F55 /* EMChatroom.h */,
+				F45A30411DDB25AD00237F55 /* EMChatroomManagerDelegate.h */,
+				F45A30421DDB25AD00237F55 /* EMClient+Call.h */,
+				F45A30431DDB25AD00237F55 /* EMClient.h */,
+				F45A30441DDB25AD00237F55 /* EMClientDelegate.h */,
+				F45A30451DDB25AD00237F55 /* EMCmdMessageBody.h */,
+				F45A30461DDB25AD00237F55 /* EMCommonDefs.h */,
+				F45A30471DDB25AD00237F55 /* EMContactManagerDelegate.h */,
+				F45A30481DDB25AD00237F55 /* EMConversation.h */,
+				F45A30491DDB25AD00237F55 /* EMCursorResult.h */,
+				F45A304A1DDB25AD00237F55 /* EMError.h */,
+				F45A304B1DDB25AD00237F55 /* EMErrorCode.h */,
+				F45A304C1DDB25AD00237F55 /* EMFileMessageBody.h */,
+				F45A304D1DDB25AD00237F55 /* EMGroup.h */,
+				F45A304E1DDB25AD00237F55 /* EMGroupManagerDelegate.h */,
+				F45A304F1DDB25AD00237F55 /* EMGroupOptions.h */,
+				F45A30501DDB25AD00237F55 /* EMImageMessageBody.h */,
+				F45A30511DDB25AD00237F55 /* EMLocationMessageBody.h */,
+				F45A30521DDB25AD00237F55 /* EMMessage.h */,
+				F45A30531DDB25AD00237F55 /* EMMessageBody.h */,
+				F45A30541DDB25AD00237F55 /* EMOptions+PrivateDeploy.h */,
+				F45A30551DDB25AD00237F55 /* EMOptions.h */,
+				F45A30561DDB25AD00237F55 /* EMPageResult.h */,
+				F45A30571DDB25AD00237F55 /* EMPushOptions.h */,
+				F45A30581DDB25AD00237F55 /* EMSDK.h */,
+				F45A30591DDB25AD00237F55 /* EMSDKFull.h */,
+				F45A305A1DDB25AD00237F55 /* EMTextMessageBody.h */,
+				F45A305B1DDB25AD00237F55 /* EMVideoMessageBody.h */,
+				F45A305C1DDB25AD00237F55 /* EMVoiceMessageBody.h */,
+				F45A305D1DDB25AD00237F55 /* IEMCallManager.h */,
+				F45A305E1DDB25AD00237F55 /* IEMChatManager.h */,
+				F45A305F1DDB25AD00237F55 /* IEMChatroomManager.h */,
+				F45A30601DDB25AD00237F55 /* IEMContactManager.h */,
+				F45A30611DDB25AD00237F55 /* IEMGroupManager.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F45A30621DDB25AD00237F55 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30631DDB25AD00237F55 /* libHyphenateFullSDK.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		F45A30791DDB325A00237F55 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F45A307A1DDB32DD00237F55 /* KLRootNavigationController.h */,
+				F45A307B1DDB32DD00237F55 /* KLRootNavigationController.m */,
+				F45A30841DDB342500237F55 /* KLRootViewController.h */,
+				F45A30851DDB342500237F55 /* KLRootViewController.m */,
+				F45A30811DDB33D700237F55 /* KLContentView.h */,
+				F45A30821DDB33D700237F55 /* KLContentView.m */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		F45A30871DDB34AA00237F55 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30881DDB34AA00237F55 /* UIViewExt.h */,
+				F45A30891DDB34AA00237F55 /* UIViewExt.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F45A308F1DDB434F00237F55 /* Custom(客制化控件) */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30901DDB43B100237F55 /* KLcustomBtn.h */,
+				F45A30911DDB43B100237F55 /* KLcustomBtn.m */,
+			);
+			name = "Custom(客制化控件)";
+			sourceTree = "<group>";
+		};
+		F45A30931DDC607900237F55 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30941DDC607900237F55 /* MBProgressHUD+MJ.h */,
+				F45A30951DDC607900237F55 /* MBProgressHUD+MJ.m */,
+				F45A30961DDC607900237F55 /* MBProgressHUD.bundle */,
+				F45A30971DDC607900237F55 /* MBProgressHUD.h */,
+				F45A30981DDC607900237F55 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		F45A309C1DDD9C9500237F55 /* MainVcClass */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30A51DDD9D3D00237F55 /* me */,
+				F45A30A11DDD9D1900237F55 /* contact */,
+				F45A30A01DDD9D0F00237F55 /* chat */,
+			);
+			name = MainVcClass;
+			sourceTree = "<group>";
+		};
+		F45A30A01DDD9D0F00237F55 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				F45A309D1DDD9CF100237F55 /* KLchatViewController.h */,
+				F45A309E1DDD9CF100237F55 /* KLchatViewController.m */,
+			);
+			name = chat;
+			sourceTree = "<group>";
+		};
+		F45A30A11DDD9D1900237F55 /* contact */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30A21DDD9D3700237F55 /* KLcontactViewController.h */,
+				F45A30A31DDD9D3700237F55 /* KLcontactViewController.m */,
+			);
+			name = contact;
+			sourceTree = "<group>";
+		};
+		F45A30A51DDD9D3D00237F55 /* me */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30A61DDD9D4E00237F55 /* KLMeViewController.h */,
+				F45A30A71DDD9D4E00237F55 /* KLMeViewController.m */,
+			);
+			name = me;
+			sourceTree = "<group>";
+		};
+		F45A30EA1DDEBA9600237F55 /* TKAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F45A30EB1DDEBA9600237F55 /* TKAlertCenter.h */,
+				F45A30EC1DDEBA9600237F55 /* TKAlertCenter.m */,
+				F45A30ED1DDEBA9600237F55 /* UIView+TKCategory.h */,
+				F45A30EE1DDEBA9600237F55 /* UIView+TKCategory.m */,
+			);
+			path = TKAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45A2FFB1DDB215A00237F55 /* 环形山脉 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45A30291DDB215B00237F55 /* Build configuration list for PBXNativeTarget "环形山脉" */;
+			buildPhases = (
+				F45A2FF81DDB215A00237F55 /* Sources */,
+				F45A2FF91DDB215A00237F55 /* Frameworks */,
+				F45A2FFA1DDB215A00237F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "环形山脉";
+			productName = "环形山脉";
+			productReference = F45A2FFC1DDB215A00237F55 /* 环形山脉.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F45A30141DDB215B00237F55 /* 环形山脉Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45A302C1DDB215B00237F55 /* Build configuration list for PBXNativeTarget "环形山脉Tests" */;
+			buildPhases = (
+				F45A30111DDB215B00237F55 /* Sources */,
+				F45A30121DDB215B00237F55 /* Frameworks */,
+				F45A30131DDB215B00237F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45A30171DDB215B00237F55 /* PBXTargetDependency */,
+			);
+			name = "环形山脉Tests";
+			productName = "环形山脉Tests";
+			productReference = F45A30151DDB215B00237F55 /* 环形山脉Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F45A301F1DDB215B00237F55 /* 环形山脉UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45A302F1DDB215B00237F55 /* Build configuration list for PBXNativeTarget "环形山脉UITests" */;
+			buildPhases = (
+				F45A301C1DDB215B00237F55 /* Sources */,
+				F45A301D1DDB215B00237F55 /* Frameworks */,
+				F45A301E1DDB215B00237F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45A30221DDB215B00237F55 /* PBXTargetDependency */,
+			);
+			name = "环形山脉UITests";
+			productName = "环形山脉UITests";
+			productReference = F45A30201DDB215B00237F55 /* 环形山脉UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45A2FF41DDB215A00237F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KL;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "凯伦";
+				TargetAttributes = {
+					F45A2FFB1DDB215A00237F55 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F45A30141DDB215B00237F55 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F45A2FFB1DDB215A00237F55;
+					};
+					F45A301F1DDB215B00237F55 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F45A2FFB1DDB215A00237F55;
+					};
+				};
+			};
+			buildConfigurationList = F45A2FF71DDB215A00237F55 /* Build configuration list for PBXProject "环形山脉" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45A2FF31DDB215A00237F55;
+			productRefGroup = F45A2FFD1DDB215A00237F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45A2FFB1DDB215A00237F55 /* 环形山脉 */,
+				F45A30141DDB215B00237F55 /* 环形山脉Tests */,
+				F45A301F1DDB215B00237F55 /* 环形山脉UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45A2FFA1DDB215A00237F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45A300F1DDB215A00237F55 /* LaunchScreen.storyboard in Resources */,
+				F45A300C1DDB215A00237F55 /* Assets.xcassets in Resources */,
+				F45A309A1DDC607900237F55 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45A30131DDB215B00237F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45A301E1DDB215B00237F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45A2FF81DDB215A00237F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45A308A1DDB34AA00237F55 /* UIViewExt.m in Sources */,
+				F45A308E1DDB385E00237F55 /* KLLoginViewController.m in Sources */,
+				F45A30A41DDD9D3700237F55 /* KLcontactViewController.m in Sources */,
+				F45A30A81DDD9D4E00237F55 /* KLMeViewController.m in Sources */,
+				F45A30071DDB215A00237F55 /* ViewController.m in Sources */,
+				F45A30041DDB215A00237F55 /* AppDelegate.m in Sources */,
+				F45A309B1DDC607900237F55 /* MBProgressHUD.m in Sources */,
+				F45A307C1DDB32DD00237F55 /* KLRootNavigationController.m in Sources */,
+				F45A30861DDB342500237F55 /* KLRootViewController.m in Sources */,
+				F45A309F1DDD9CF100237F55 /* KLchatViewController.m in Sources */,
+				F45A30EF1DDEBA9600237F55 /* TKAlertCenter.m in Sources */,
+				F45A30991DDC607900237F55 /* MBProgressHUD+MJ.m in Sources */,
+				F45A30011DDB215A00237F55 /* main.m in Sources */,
+				F45A30921DDB43B100237F55 /* KLcustomBtn.m in Sources */,
+				F45A30831DDB33D700237F55 /* KLContentView.m in Sources */,
+				F45A30F01DDEBA9600237F55 /* UIView+TKCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45A30111DDB215B00237F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45A301A1DDB215B00237F55 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45A301C1DDB215B00237F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45A30251DDB215B00237F55 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F45A30171DDB215B00237F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45A2FFB1DDB215A00237F55 /* 环形山脉 */;
+			targetProxy = F45A30161DDB215B00237F55 /* PBXContainerItemProxy */;
+		};
+		F45A30221DDB215B00237F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45A2FFB1DDB215A00237F55 /* 环形山脉 */;
+			targetProxy = F45A30211DDB215B00237F55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F45A300D1DDB215A00237F55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45A300E1DDB215A00237F55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45A30271DDB215B00237F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F45A30281DDB215B00237F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45A302A1DDB215B00237F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = "/Users/kailun/Desktop/编程测试/环形山脉/环形山脉/WeChat.pch";
+				INFOPLIST_FILE = "环形山脉/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/环形山脉/HyphenateFullSDK/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KLasdasd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F45A302B1DDB215B00237F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = "/Users/kailun/Desktop/编程测试/环形山脉/环形山脉/WeChat.pch";
+				INFOPLIST_FILE = "环形山脉/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/环形山脉/HyphenateFullSDK/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KLasdasd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F45A302D1DDB215B00237F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "环形山脉Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KL.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/环形山脉.app/环形山脉";
+			};
+			name = Debug;
+		};
+		F45A302E1DDB215B00237F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "环形山脉Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KL.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/环形山脉.app/环形山脉";
+			};
+			name = Release;
+		};
+		F45A30301DDB215B00237F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "环形山脉UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KL.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "环形山脉";
+			};
+			name = Debug;
+		};
+		F45A30311DDB215B00237F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "环形山脉UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KL.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "环形山脉";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45A2FF71DDB215A00237F55 /* Build configuration list for PBXProject "环形山脉" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45A30271DDB215B00237F55 /* Debug */,
+				F45A30281DDB215B00237F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45A30291DDB215B00237F55 /* Build configuration list for PBXNativeTarget "环形山脉" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45A302A1DDB215B00237F55 /* Debug */,
+				F45A302B1DDB215B00237F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45A302C1DDB215B00237F55 /* Build configuration list for PBXNativeTarget "环形山脉Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45A302D1DDB215B00237F55 /* Debug */,
+				F45A302E1DDB215B00237F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45A302F1DDB215B00237F55 /* Build configuration list for PBXNativeTarget "环形山脉UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45A30301DDB215B00237F55 /* Debug */,
+				F45A30311DDB215B00237F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F45A2FF41DDB215A00237F55 /* Project object */;
+}
